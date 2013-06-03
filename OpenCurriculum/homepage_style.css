@@ -1,0 +1,114 @@
+html {
+	background: url(http://i.imgur.com/48eRwhM.png) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+
+#container {
+	/* The problem was that I restricted the #container size */
+}
+
+#container h1 {
+	margin-left: 10px;
+	font-family: "Alef";
+	font-weight: 700;
+	font-size: 50px;
+}
+
+#about {
+	float: left;
+}
+
+#about h3 {
+	margin-top: 40px;
+	margin-left: 200px;
+	font-family: "Bubblegum Sans";
+	font-size: 30px;
+}
+
+#about p {
+	margin-top: 20px;
+	margin-left: 30px;
+	font-family: "Alef";
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#about a {}
+
+#skills {
+	float: left;
+}
+
+#skills h3 {
+	margin-top: 40px;
+	margin-left: 300px;
+	font-family: "Bubblegum Sans";
+	font-size: 30px;
+	color: white;
+}
+
+#skills p {
+	margin-top: 20px;
+	margin-left: 102px;
+	/* ^ should be 105px, but I don't like how close 'Python' gets to the side. */
+	font-family: "Alef";
+	font-weight: 700;
+	font-size: 20px;
+	color: white;
+}
+
+#skills a {}
+
+#projects {
+	float: left;
+}
+
+/* I'm just going with negative location. Learn more float stuff though */
+
+#projects h3 {
+	margin-top: 40px;
+	margin-left: 200px;
+	font-family: "Bubblegum Sans";
+	font-size: 30px;
+}
+
+#projects p {
+	margin-top: 30px;
+	margin-left: 35px;
+	font-family: "Alef";
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#resume {
+	float: right;
+}
+
+#resume h3 {
+	margin-top: -160px;
+	margin-left: 650px;
+	font-family: "Bubblegum Sans";
+	font-size: 30px;
+	color: white;
+}
+
+#resume p {
+	margin-left: 0px;
+	font-family: "Alef";
+	font-weight: 700;
+	font-size: 20px;
+	color: white;
+}
+
+/* IMPORTANT: they all float left and bump into each other */
+
+
+/* IMPORTANT: I don't think this goes over to other screen sizes because it's fixed size... */
+/* How do I fix resizing? */
+/* I like Bubblegum Sans, but I also have Mouse Memoirs and Wellfleet on here */
+/* "Duncan McIsaac" will be in a different font probably */
+
+/* Non-harsh colors come last */
+/* Can you only float boxes? */
